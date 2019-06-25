@@ -1,0 +1,20 @@
+<div class="container-fluid">
+<div class="row">
+  <header class="col-md-12" >
+    <div class="col-md-6 inner-head">
+        <div class="title col-sm-12"><p>Foursquare</p></div>
+        <div class="search col-sm-12">
+          <div class="search1">
+              <input class="search4 search-text" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="" aria-label="Search" placeholder="search">
+          </div>
+        </div>
+        
+    </div>
+    <div class="col-md-6"></div>
+</header>
+</div>
+  <div class="row main">
+    <div class="col-md-12">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+function login(email, password, callback) {
+  const request = require('request');
+  
+   var url = 'https://yossdev0.b2clogin.com/yossdev0.onmicrosoft.com/oauth2/v2.0/token?p=b2c_1_ropc_auth';
+  var payload = {
+    username: "karthik.ewart@gmail.com",
+      password: "karthik@3377",
+      grant_type:"password",
+      scope :"openid 315c9d98-d32b-43f7-bf4f-bb624189d398 offline_access",
+      client_id:"315c9d98-d32b-43f7-bf4f-bb624189d398",
+      response_type:"token id_token"
+  };
+
+  request.post(url,{ form: payload }, function(error, response, body) {
+    if (error) return callback(error);
+    if (response.statusCode === 401) return callback();
+    
+    const user = JSON.parse(body);
+    console.log(user);
+	//nst user = body;
+    callback(null, {
+      //user_id: user.user_id.toString(),
+      nickname: user.nickname,
+      email: user.email
+    });
+  });
+ 
+}

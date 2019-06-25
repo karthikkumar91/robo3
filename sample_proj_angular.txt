@@ -1,0 +1,62 @@
+Develop an responsive website related to finding nearby places for food.
+
+The app will have following screens:
+
+1. Home Screen: When the website is launched, the home screen should display the nearby places related to food on a map. You need to fetch the users current latitude-longitude location and display the places of food nearby to that location. Each of the locations would be highlighted using a pin. The currently selected pin would be indicated using a different pin color. The screen would also have a list of all the places on the left hand side (each of the items in this list would have a corresponding pin on the map). 
+
+2. Home screen will also contain a search bar which will help the user to search places of food near at a particular place. Here the pins are displayed based on the search term provided.
+
+3. Details Screen: The details screen is displayed when the user taps on any of the pins or any of the items on the places list in the home screen. The details screen would display the following details of the selected place: The photos, basic details, distance, address, list of reviews, and a static map view to indicate its location.
+
+4. You should also implement caching mechanism for place details (so that if a user chooses the same location on a map, the place details should be fetched from cache without making an api call) 
+
+UI designs:
+
+The designs have been provided in the following URL:
+
+Website designs: https://projects.invisionapp.com/d/main#/projects/prototypes/15904146
+iOS app designs: https://projects.invisionapp.com/d/main#/projects/prototypes/15904136
+Android app designs: https://projects.invisionapp.com/d/main#/projects/prototypes/15904142
+
+Username: karthik.work.id@gmail.com
+Password: robosoft123
+
+All the UI assets can be downloaded from each of the screens. The UI element  dimensions can be found in the designs as well. In case if there are errors in the designs or if some data is missing, you need to make valid assumptions of your own to suit the requirement or the app.
+  
+APIs:
+
+You need to use Foursquare APIs to fetch the data. The details of all the FourSquare APIs are provided in the following URL:
+
+https://developer.foursquare.com/docs/api/endpoints
+
+You need to use the appropriate APIs based on the app's requirement. Following is a sample API (just to help you with understanding the structure of the API)
+
+https://api.foursquare.com/v2/venues/explore?ll={lat,long}&v=20181106&limit=20&radius=500&section=food&client_id={Client ID}&client_secret={Client Secret}
+
+There are other parameters as well that provide better results. For e.g., you can provide the place name instead of lat and long, you can give different values for 'section', etc.
+
+Foursquare uses the term ‘Tips’ for reviews. So, you need to use the following API format mentioned in the following link for accessing reviews:
+https://developer.foursquare.com/docs/api/venues/tips
+
+We have already registered with Foursquare and following are the Client Id and client secret combinations you can use:
+
+client_id1= ERXASQWJPXQZGFA5PUBVB3FR03K012B0ADMYRAJP4VPLBBDE
+client_secret1= QL0WDHGJLQVZZDFWIYFV15NGV5C3KJUWXOLVK5AAX3D1DR3J
+
+client_id2= XXGWNF0H5YOXYM4B0NDXW5HWA1QZNFPUVQJF3VCMBUHLHQNE
+client_secret2=HOEFLV1HWOHMQHIGKASI10EZB2V32TRTRC1DWA1ESPMJ03HE
+
+In case if you need a Google map API key, you can use the following key:
+
+AIzaSyBOQcBlbuSNv1F9GHCp8BAp6ZfDJoRLjXQ
+
+
+In case of the clientId and secret or API key is blocked (due to too many requests), please create a id and secret of your own and proceed
+
+Additional requirements:
+
+1) Website should be responsive. The responsive designs are not provided.  But, you can refer to the mobile app designs to have a idea of how the UI looks on a mobile browser. You can also make assumptions of your own in case if the designs do not provide sufficient information. 
+2) If you find any of the requirements to be very vague, you can make reasonable assumptions standard to the platform.
+3) Appropriate usage of programming constructs, appropriate module design, documentation and code neatness is of highest importance.
+4) In case if you need to let the reviewers know of any details specific to your code (for e.g., the reason behind using a particular framework or a particular pattern), please document it in a ‘Readme’ file and commit it along with the code.
+

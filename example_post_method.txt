@@ -1,0 +1,12 @@
+  var url = 'https://accounts.google.com/o/oauth2/token';
+  var payload = {
+    grant_type: 'authorization_code',
+    code: req.body.code,
+    client_id: req.body.clientId,
+    client_secret: 'HIDDEN',
+    redirect_uri: req.body.redirectUri
+  };
+
+  request.post(url, { form: payload }, function(error, response, body) {
+    console.log(body);
+  });

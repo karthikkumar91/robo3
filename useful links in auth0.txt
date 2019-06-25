@@ -1,0 +1,12 @@
+https://stackoverflow.com/questions/49881980/passwordless-authentication-in-node-using-auth0
+
+https://auth0.github.io/node-auth0/module-auth.AuthenticationClient.html#requestSMSCode
+
+
+https://node-auth0-docs.netlify.com/index.html
+
+
+https://auth0.com/docs/connections/database/custom-db/templates/login
+
+
+https://stackoverflow.com/questions/34996807/has-anyone-successfully-used-azure-ad-to-authenticate-users-for-a-node-js-web-ap

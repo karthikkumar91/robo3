@@ -1,0 +1,61 @@
+https://shakhr.visualstudio.com/Shakhr/_git/yoss-us-3.0-poc-service/pullrequest/12192?_a=overview
+
+
+
+https://shakhr.visualstudio.com/Shakhr/_git/yoss-us-3.0-poc-service?path=%2F&version=GBfeature%2F17936-auth0-user-mgt
+
+
+https://community.auth0.com/t/sending-a-magic-magic-link/17016
+
+https://dzone.com/articles/how-passwordless-authentication-works
+
+https://dzone.com/articles/is-passwordless-authentication-more-secure-than-pa
+
+https://manage.auth0.com/#/connections/passwordless
+
+
+https://manage.auth0.com/#/connections/passwordless
+
+
+git details
+
+https://github.com/auth0-samples?page=4
+
+
+Lock configuration API
+
+
+https://auth0.com/docs/libraries/lock/v11/configuration#allowedconnections-array-
+
+
+tenant advanced Settings
+
+
+https://manage.auth0.com/#/tenant/advanced
+
+
+ Azure ID Error
+
+https://login.microsoftonline.com/login.srf
+
+
+https://www.marcbruins.nl/store-secrets-safely-with-azure-key-vault-and-managed-identities
+
+
+client id error:
+
+
+https://docs.microsoft.com/en-us/skype-sdk/websdk/docs/troubleshooting/auth/aadauth-clientid
+
+
+
+
+auth0 to azure migration::::::::::::::::::::
+
+http://www.mattruma.com/auth0-to-azure-ad-b2c-migration-part-3/
+
+
+
+Connect Auth0 with Azure AD B2C::::::::::::::::::::::::::::
+
+https://gist.github.com/sandrinodimattia/d33c5faa1bad9e8aebfa40027bb82773
